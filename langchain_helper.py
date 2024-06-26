@@ -14,7 +14,9 @@ from langchain_community.vectorstores import FAISS
 
 from dotenv import load_dotenv
 
+
 # load_dotenv()
+
 # video_url = "https://www.youtube.com/watch?v=SBaFwemRrJ4"
 # embeddings = OpenAIEmbeddings()
 
