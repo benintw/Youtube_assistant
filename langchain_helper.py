@@ -20,27 +20,7 @@ from dotenv import load_dotenv
 
 
 def create_vector_db_from_youtube_url(video_url: str, api_key: str) -> FAISS:
-    # print(f"Loading transcript from URL: {video_url}")
-    # loader = YoutubeLoader.from_youtube_url(video_url)
-    # transcript = loader.load()
 
-    # print(f"Transcript: {transcript}")  # Debugging statement
-
-    # if not transcript:
-    #     raise ValueError(
-    #         "Transcript is empty. Please check the video URL or try another video."
-    #     )
-
-    # text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
-    # docs = text_splitter.split_documents(transcript)
-    # print(f"Documents: {docs[:5]}")  # Debugging statement
-
-    # embeddings = OpenAIEmbeddings(openai_api_key=api_key)
-    # test_embedding = embeddings.embed_documents(["test document"])
-
-    # db = FAISS.from_documents(docs, embedding=embeddings)
-
-    # return db
     try:
         print(f"Loading transcript from URL: {video_url}")  # Debugging statement
         loader = YoutubeLoader.from_youtube_url(video_url)
