@@ -10,4 +10,3 @@ You need to have an OpenAI_API_KEY
 
 
 ![449088402_490054210268206_4473223764659388902_n](https://github.com/benintw/Youtube_assistant/assets/104064349/59193a65-bc1f-4e0c-8f28-09a247467d2f)
-![449088402_490054210268206_4473223764659388902_n](https://github.com/benintw/Youtube_assistant/assets/104064349/59193a65-bc1f-4e0c-8f28-09a247467d2f)
